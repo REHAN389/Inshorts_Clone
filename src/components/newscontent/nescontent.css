@@ -1,0 +1,41 @@
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloadMessae{
+    background-color: #f44336;
+    display: flex;
+    color: white;
+    margin: 82px 0 35px 0;
+    padding: 0px 40px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    width: 95%;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.downloadText{
+    /* padding: 0px 113px 0px 9px; */
+    flex: 1;
+}
+.downloadimg{
+    padding: 0px 7px;
+}
+.loadmore{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 1px 10px 0 rgba(0,0,0,0.12);
+    padding: 7px 25px;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+@media (max-width:995px){
+.downloadMessae{
+    display: none;
+}
+}

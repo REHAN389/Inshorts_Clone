@@ -1,0 +1,36 @@
+.footer{
+    background-color: #323232;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+a{
+    color: white;
+}
+.credit{
+    padding-bottom: 10px;
+}
+.iconcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 13%;
+    padding-top: 10px;
+}
+#insta:hover {
+color: rgb(175, 13, 102);
+}
+#linkdin:hover {
+color: rgb(111, 98, 223);
+}
+#site:hover {
+color: rgb(212, 176, 14);
+}
+
+@media (max-width:600px){
+    .iconcontainer{
+        width: 25%;
+    }
+}
